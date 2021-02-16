@@ -1,0 +1,251 @@
+
+:root {
+  --blu-text: #2196F3;
+  --blak-text: #212121;
+  --grey-text: #757575;
+  --white-text: #FFFFFF;
+  --text-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: Roboto,sans-serif;
+  font-style: normal;
+  margin: 0;
+}
+
+.container {
+
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+ 
+}
+
+.container-nav { 
+  outline: 2px solid tomato;
+}
+
+.header {
+  background-color: #FFFFFF;  
+}
+
+.logo {
+  width: 145px;
+  margin-top: 24px;
+  margin-left: 15px;
+  display: inline-block;
+
+  color: var(--blu-text);
+  font-family: Raleway,sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  outline: 2px solid tomato;
+}
+
+.logoblak {
+  color: var(--blak-text);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+
+}
+
+.site-nav-ul {
+  justify-content: space-between;
+  display: inline-block;
+ 
+}
+
+.site-li {
+  justify-content: space-between;
+  display: inline-block;
+}
+
+.site-nav .link.current{
+  color: var(--blu-text);
+} 
+
+.link {
+ 
+  justify-content: space-between;
+  display: inline-block;
+  
+
+  color: var(--blak-text);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+ 
+}
+
+.lin {
+  margin-top: px;;
+  Width: px;
+  display: inline-block;
+
+  color: var(--grey-text);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+ 
+}
+
+.lin:hover{
+  color: var(--blu-text);  
+}
+
+.section-background {
+  background-color: #2F303A;
+}
+
+.section {
+  color: var(--white-text);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+.order {
+  color: var(--white-text);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+}
+ 
+.list {
+  color: var(--blak-text);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.list-text {
+  color: var(--grey-text);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.bold {
+  color: var(--blak-text); 
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+
+.staff {
+  background-color: #F5F4FA;
+}
+
+.staff-people {
+  color: var(--blak-text);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+
+.profession {
+  color: var(--grey-text);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+
+.footer {
+  background-color: #2F303A;
+}
+
+.logowhite {
+  color: var(--white-text);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.address {
+  color: var(--white-text);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.mail-nomber {
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.botton {
+  font-family: inherit;
+  color: var(--blak-text);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+}
+
+.botton:hover {
+  color: var(--white-text); 
+}
+
+.product {
+  color: var(--blak-text);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+
+.product-name {
+  color: var(--grey-text);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
