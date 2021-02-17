@@ -19,11 +19,61 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
- 
+  outline: 2px solid tomato;
 }
 
-.container-nav { 
-  outline: 2px solid tomato;
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.btn {
+  padding: 9px 32px 9px 32px;
+  display: inline-block;
+  color: var(--white-text);
+  background-color: var(--blu-text);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+header.container, { 
+  display: flex;
+}
+
+.link-nav,
+.site-nav,
+.contact-nav {
+  display: flex;
+}
+
+.site-nav li {
+  margin-left: 50px;
+}
+
+.site-nav li:first-child{
+  margin-left: 93px;  
+}
+
+.contact-nav li:first-child {
+  margin-right: 40px;
+}
+
+.link-nav {
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header {
@@ -33,17 +83,17 @@ body {
 .logo {
   width: 145px;
   margin-top: 24px;
-  margin-left: 15px;
+  margin-bottom: 25px;
   display: inline-block;
 
   color: var(--blu-text);
   font-family: Raleway,sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-  outline: 2px solid tomato;
+  line-height: 1.2;
+  text-decoration: none;
+ 
 }
 
 .logoblak {
@@ -51,43 +101,33 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-
+  line-height: 1.2;
+  
 }
 
-.site-nav-ul {
-  justify-content: space-between;
-  display: inline-block;
- 
-}
-
-.site-li {
-  justify-content: space-between;
-  display: inline-block;
-}
 
 .site-nav .link.current{
   color: var(--blu-text);
 } 
 
 .link {
- 
-  justify-content: space-between;
+  margin-top: 32px 16px;
   display: inline-block;
+ 
   
-
   color: var(--blak-text);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  line-height: 1.14;
+  text-decoration: none;
+ 
+  
  
 }
 
 .lin {
-  margin-top: px;;
+  margin-top: 32px 16px;
   Width: px;
   display: inline-block;
 
@@ -95,9 +135,8 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
- 
+  line-height: 1.14;
+  text-decoration: none;
 }
 
 .lin:hover{
@@ -105,32 +144,50 @@ body {
 }
 
 .section-background {
+
+  padding-top: 315px;
+  padding-bottom: 130px;
+  text-align: center;
   background-color: #2F303A;
 }
 
 .section {
+  margin-bottom: 39px;
+
   color: var(--white-text);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
+  
 }
 
-.order {
+.section-btn {
+  margin: 0 auto;
+  display: inline-block;
+
   color: var(--white-text);
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
+  text-decoration: none;
+}
+
+.list-item {
+  justify-content: space-between;
+  display: flex;
+  /*outline: 2px solid tomato;*/
 }
  
 .list {
+  margin-bottom: 10px;
+
   color: var(--blak-text);
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  line-height: 1.14;
 }
 
 .list-text {
@@ -138,30 +195,54 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 1.7;
 }
 
 .bold {
+  margin-bottom: 50px;
+
   color: var(--blak-text); 
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
-  letter-spacing: 0.03em;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.list-img {
+  display: flex;
+}
+
+.img {
+  padding-right: 30px;
+  display: block;
 }
 
 .staff {
   background-color: #F5F4FA;
 }
 
+.staff-list {
+  display: inline-flex;
+}
+
+.staff-li:nth-child(n+2){
+  padding-left: 30px;
+}
+
+.staff-text {
+  padding: 30px 0px 30px 0px ;
+  text-align: center;
+}
+
 .staff-people {
+  margin-bottom: 10px;
+
   color: var(--blak-text);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
 }
 
 .profession {
@@ -169,8 +250,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
 }
 
 .footer {
@@ -178,12 +258,12 @@ body {
 }
 
 .logowhite {
+
   color: var(--white-text);
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  line-height: 1.19
 }
 
 .address {
@@ -191,8 +271,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 1.7;
 }
 
 .mail-nomber {
@@ -200,8 +279,8 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 1.7;
+  text-decoration: none;
 }
 
 .botton {
@@ -210,8 +289,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  letter-spacing: 0.03em;
+  line-height: 1.62;
 }
 
 .botton:hover {
@@ -223,8 +301,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 0.06em;
+  line-height: 2;
 }
 
 .product-name {
@@ -232,8 +309,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
+  line-height: 1.87;
 }
 
 .visually-hidden {
