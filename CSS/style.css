@@ -282,14 +282,30 @@ header.container, {
   line-height: 1.7;
   text-decoration: none;
 }
+ 
+.list-btn:nth-child(n+2) {
+  padding-left: 8px;
+}
+
+.lists-btn {
+  msrgin-left: 8px;
+  justify-content: center;
+  display: flex;
+  
+}
 
 .botton {
+  margin: 0 auto;
+  display: inline-block;
+  
+
   font-family: inherit;
   color: var(--blak-text);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  text-align: center;
 }
 
 .botton:hover {
