@@ -155,8 +155,8 @@ header.container, {
 
 .section-background {
 
-  padding-top: 203px;
-  padding-bottom: 130px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
   background-color: #2F303A;
 }
@@ -189,9 +189,9 @@ header.container, {
   padding-top: 57px;
 }
 
-.list-item-li:nth-child(n+2){
-  padding-left: 25px;
-
+.list-item-li:nth-child(n + 2){
+  margin-left: 30px;
+  display: block;
 }
 
 .list-item {
@@ -252,7 +252,7 @@ header.container, {
 }
 
 .staff-li:nth-child(n+2){
-  padding-left: 30px;
+  margin-left: 30px;
 }
 
 .staff-text {
